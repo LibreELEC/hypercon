@@ -240,7 +240,7 @@ public class LoadSaveCreatePanel extends JPanel {
 				if (Desktop.isDesktopSupported()) {
 					Desktop desktop = Desktop.getDesktop();
 						if (desktop.isSupported(Desktop.Action.BROWSE)) {
-						desktop.browse(new URI("https://wiki.libreelec.tv/index.php?title=Hyperion"));
+						desktop.browse(new URI("https://wiki.libreelec.tv/configuration/hyperion"));
 		        }
 		    }
 		} catch (Exception e1) {
